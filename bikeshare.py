@@ -196,7 +196,7 @@ def user_stats_gender(df):
 def user_stats_birth(df):
     """Displays statistics of analysis based on the birth years of bikeshare users."""
 
-    # Display earliest, most recent, and most common year of birth
+    # Display earliest, most recent and most common year of birth
     birth_year = df['Birth Year']
     # the most common birth year
     most_common_year = birth_year.value_counts().idxmax()
