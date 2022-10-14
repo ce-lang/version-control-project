@@ -10,7 +10,14 @@ version-control-project
 Introduction to Version Control
 
 ### Files used
-Include the files used
+.gitignore
+bikeshare.py
+chicago.csv
+input_util.py
+new_york_city.csv
+README.md
+requirements.txt
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
