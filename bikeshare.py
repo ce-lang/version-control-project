@@ -6,10 +6,11 @@ import json
 from input_util import get_user_input
 
 CITY_DATA = { 'chicago': 'chicago.csv',
+              'houston': 'houston.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-CITIES = ['chicago', 'new york', 'washington']
+CITIES = ['chicago', 'houston', 'new york', 'washington']
 
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 
@@ -27,7 +28,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
 
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, houston,  new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
        city = input('Which city do you want to explore Chicago, New York or Washington? \n> ').lower()
        if city in CITIES:
